@@ -30,19 +30,15 @@ This project implements a Convolutional Neural Network (CNN) to recognize images
 - NumPy
 - Matplotlib
 
-## Installation
-
-Install the required libraries using !pip
-
-Model Architecture
+# Model Architecture
 The CNN model consists of multiple convolutional layers, followed by max-pooling and dropout for regularization. It then employs dense layers for classification. The architecture is fine-tuned through deeper layers and data augmentation techniques to enhance accuracy.
 
-Training Strategy
+# Training Strategy
 Optimizer: RMSprop optimizer was used to compile the model.
 Callbacks: Learning rate scheduler, model checkpointing, and early stopping were utilized to optimize training.
 Evaluation: The final model was evaluated on the CIFAR-10 test set.
 
-Conclusion
+# Conclusion
 Data augmentation plays a crucial role in enhancing the model’s generalization capabilities and improving its ability to classify images more accurately. This project effectively demonstrates the progressive development of a CNN model for image classification on the CIFAR-10 dataset, highlighting the importance of deeper architectures and augmentation techniques in achieving higher accuracy.
 
 
