@@ -1,7 +1,4 @@
 # CNN-CIFAR-10-Image-Recognition
-This project implements a Convolutional Neural Network (CNN) to recognize images from the CIFAR-10 dataset. It enhances the model's accuracy using data augmentation techniques such as zooming, horizontal flipping, and more. The project showcases progressive improvements across models, achieving high accuracy for image classification.
-
-# CNN-CIFAR-10-Image-Recognition
 
 This project implements a Convolutional Neural Network (CNN) to recognize images from the CIFAR-10 dataset. The dataset consists of 60,000 32x32 colour images categorized into 10 classes (e.g., aeroplanes, automobiles, birds, cats, etc.). The project progressively improves the model’s accuracy by applying data augmentation techniques such as horizontal flipping, zooming, random rotations, and shear transformations. The final model achieves a significant improvement in classification accuracy.
 
